@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  transformers-notebook:
+    build: ./
+    container_name: tensorflow_jupyter
+    ports:
+      - "8000:8888"
+    volumes:
+      - ./:/tf
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=iambatman
+    restart: unless-stopped
