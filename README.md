@@ -17,7 +17,6 @@ hello-docker/
 └── captions_english.srt              
 ```
 
----
 
 ## 🐳 Run it with Docker Compose
 
