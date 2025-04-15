@@ -5,17 +5,16 @@
 
 This project runs a pre-configured [TensorFlow Jupyter Notebook](https://hub.docker.com/r/tensorflow/tensorflow) environment with support for Hugging Face Transformers — all inside Docker. No local setup needed!
 
----
 
 ## 📁 Project Structure
 
-```
+
 hello-docker/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── translator.ipynb   
 └── captions_english.srt              
-```
+
 
 
 ## 🐳 Run it with Docker Compose
