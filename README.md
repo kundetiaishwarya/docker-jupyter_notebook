@@ -1,7 +1,7 @@
 
 
 ```markdown
-# 🚀 Transformer Jupyter Notebook (Dockerized)
+# Transformer Jupyter Notebook (Dockerized)
 
 This project runs a pre-configured [TensorFlow Jupyter Notebook](https://hub.docker.com/r/tensorflow/tensorflow) environment with support for Hugging Face Transformers — all inside Docker. No local setup needed!
 
