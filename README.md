@@ -23,9 +23,9 @@ Make sure you have [Docker](https://docs.docker.com/get-docker/) and [Docker Com
 
 ### 🧱 Step 1: Build and run
 
-```bash
+bash
 docker compose up --build
-```
+
 
 Then open your browser to:
 
