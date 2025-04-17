@@ -16,7 +16,6 @@ hello-docker/
 └── captions_english.srt              
 
 
-
 ## Run it with Docker Compose
 
 Make sure you have [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) installed.
