@@ -6,7 +6,7 @@
 This project runs a pre-configured [TensorFlow Jupyter Notebook](https://hub.docker.com/r/tensorflow/tensorflow) environment with support for Hugging Face Transformers — all inside Docker. No local setup needed!
 
 
-## 📁 Project Structure
+## Project Structure
 
 
 hello-docker/
@@ -17,11 +17,11 @@ hello-docker/
 
 
 
-## 🐳 Run it with Docker Compose
+## Run it with Docker Compose
 
 Make sure you have [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) installed.
 
-### 🧱 Step 1: Build and run
+### Step 1: Build and run
 
 bash
 docker compose up --build
@@ -36,7 +36,7 @@ Your `translator.ipynb` will be visible in the file tree.
 
 ---
 
-## ⚙️ Features
+## Features
 
 - ✅ Jupyter Lab pre-installed
 - ✅ TensorFlow and Transformers support
@@ -46,7 +46,7 @@ Your `translator.ipynb` will be visible in the file tree.
 
 ---
 
-## 🛠️ Customize
+## Customize
 
 If you want to add more libraries or change the Python environment, edit the `Dockerfile`:
 
@@ -66,7 +66,7 @@ docker compose build
 
 ---
 
-## 🧹 Stop and Clean Up
+## Stop and Clean Up
 
 ```bash
 docker compose down
