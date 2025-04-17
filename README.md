@@ -79,7 +79,7 @@ docker compose down --rmi all
 
 ---
 
-## 📦 Optional: Push Image to Docker Hub
+## Optional: Push Image to Docker Hub
 
 1. Tag your image:
 ```bash
@@ -93,7 +93,7 @@ docker push yourusername/transformer-notebook
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 PRs are welcome if you'd like to add more features or share new use cases!
 
